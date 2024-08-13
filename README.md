@@ -90,14 +90,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 If you have any questions or suggestions, feel free to contact me via GitHub.
 ```
 
-### Summary:
-
-- **Description:** An overview of the project and its purpose.
-- **Technologies:** A list of the technologies used in the project.
-- **Features:** The main functions implemented in the project.
-- **Installation and Running:** Step-by-step instructions for setting up and running the project.
-- **Future Improvements:** Ideas for future versions and extensions.
-- **Contributing:** Information on how other developers can help or suggest improvements.
-- **License:** Indication of the license under which the project is distributed.
-
 This `README.md` file will help other users and developers understand how to use your project and contribute to its development.
