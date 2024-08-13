@@ -1,36 +1,33 @@
-# Just-Loading
-Certainly! Here's the `README.md` file for your "Just Loading" project in English:
-
-```markdown
 # Just Loading
 
 ## Description
 
-**Just Loading** is a project that provides a script for automating the loading of key customer information into a database. This tool is designed to simplify the process of collecting, processing, and storing data in business applications where reliable and efficient handling of large data volumes is required.
+**Just Loading** is an advanced data loading tool that automates the process of extracting, processing, and saving critical customer information into a database. This project supports multiple database types and uses multithreading to improve performance, with logging and error handling capabilities.
 
 ## Technologies
 
 The project utilizes the following technologies:
 
-- **C++**: Implementation of the main data processing algorithms.
-- **Oracle**: Used as the primary database for storing customer data.
+- **C++**: Implementation of main data processing algorithms, multithreading, and logging.
+- **Oracle, MySQL, PostgreSQL**: Supported databases for storing customer data.
 - **JavaScript**: Script for interacting with the database and managing the loading process.
-- **MySQL**: An alternative database for data storage.
+- **JSON**: Used for configuration and data management.
 
 ## Features
 
-- Connects to Oracle/MySQL databases.
-- Loads and validates customer data from various sources.
-- Processes data using algorithms written in C++.
-- Interacts with the database through JavaScript.
-- Flexible configuration of loading parameters via a configuration file.
+- **Multi-database support**: Works with Oracle, MySQL, and PostgreSQL.
+- **Multithreaded processing**: Parallel processing to increase performance.
+- **Logging**: Detailed logs of all operations with different log levels (Info, Warning, Error).
+- **Error handling**: Robust error handling and reporting.
+- **Interactive Console**: User interaction through the command line interface.
+- **Configuration via JSON**: Easy configuration management using JSON files.
 
 ## Installation and Running
 
 ### Requirements
 
 - A C++ compiler (e.g., GCC or MSVC) installed.
-- Oracle or MySQL database installed.
+- Oracle, MySQL, or PostgreSQL database installed.
 - Node.js for running JavaScript files.
 
 ### Installation Steps
@@ -51,7 +48,7 @@ The project utilizes the following technologies:
    - To compile the C++ program:
    
      ```bash
-     g++ main.cpp -o loadData
+     g++ main.cpp database.cpp logger.cpp data_processor.cpp -o loadData -pthread
      ```
 
    - To run the program:
@@ -71,9 +68,10 @@ The project utilizes the following technologies:
 
 ## Future Improvements
 
-- Adding support for PostgreSQL and other databases.
-- Expanding the JavaScript user interface for more flexible management of the loading process.
-- Optimizing performance for data processing.
+- Adding support for more databases and data sources.
+- Expanding the user interface and adding a web-based dashboard.
+- Implementing more sophisticated error handling and recovery mechanisms.
+- Enhancing the data processing algorithms for better performance.
 
 ## Contributing
 
@@ -82,12 +80,6 @@ If you have ideas for improving the project or would like to contribute, please 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-**Author:** Oleksandr Ostroukhov
-
-If you have any questions or suggestions, feel free to contact me via GitHub.
 ```
 
-This `README.md` file will help other users and developers understand how to use your project and contribute to its development.
+This `README.md` file should now serve as a comprehensive guide for anyone who wants to understand, install, run, and contribute to the "Just Loading" project.
