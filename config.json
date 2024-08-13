@@ -1,0 +1,9 @@
+{
+  "database": {
+    "type": "Oracle",
+    "host": "localhost",
+    "user": "root",
+    "password": "password",
+    "database": "client_data"
+  }
+}
