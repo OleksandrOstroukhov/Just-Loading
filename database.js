@@ -1,5 +1,5 @@
-// JavaScript код для работы с базой данных
+// JavaScript code for working with the database
 const dbConfig = require('./config.json').database;
 
 console.log(`Connecting to ${dbConfig.type} database...`);
-// Логика подключения и взаимодействия с базой данных
+// Logic for connecting to and interacting with the database
