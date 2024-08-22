@@ -18,18 +18,18 @@ bool Database::connect(const std::string& configFilePath) {
     password = config["database"]["password"].asString();
     database = config["database"]["name"].asString();
 
-    // Добавьте код для подключения к базе данных на основе dbType (Oracle, MySQL, PostgreSQL)
+    // Add code to connect to the database based on dbType (Oracle, MySQL, PostgreSQL)
     std::cout << "Connected to " << dbType << " database at " << host << std::endl;
     return true;
 }
 
 void Database::disconnect() {
-    // Код для закрытия подключения
+    // Code to close the connection
     std::cout << "Disconnected from database." << std::endl;
 }
 
 bool Database::executeQuery(const std::string& query) {
-    // Код для выполнения SQL-запроса
+    // Code to execute SQL query
     std::cout << "Executing query: " << query << std::endl;
     return true;
 }
