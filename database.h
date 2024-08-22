@@ -16,7 +16,7 @@ private:
     std::string user;
     std::string password;
     std::string database;
-    // Возможно добавить другие поля для хранения информации о подключении
+    // Additional fields for storing connection information might be added
 };
 
 #endif
