@@ -3,15 +3,15 @@
 
 void DataProcessor::loadData() {
     Logger::log("Loading data...");
-    // Логика загрузки данных
+    // Logic for loading data
 }
 
 void DataProcessor::processData() {
     Logger::log("Processing data...");
-    // Логика обработки данных
+    // Logic for processing data
 }
 
 void DataProcessor::saveData() {
     Logger::log("Saving data...");
-    // Логика сохранения данных
+    // Logic for saving data
 }
