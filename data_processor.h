@@ -8,7 +8,7 @@ public:
     void saveData();
 
 private:
-    // Добавьте необходимые поля для обработки данных
+    // Add necessary fields for data processing
 };
 
 #endif
